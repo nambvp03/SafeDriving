@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1565c0</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="quizText">#2f3152</color>
+    <color name="blueGrey">#34454d</color>
+    <color name="blueGreyLight">#5c6a70</color>
+    <color name="menuText">#000039</color>
+    <color name="mimoWhite">#f9fafe</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF5E5E</color>
+    <color name="buttonBlue">#6200EE</color>
+    <color name="greyText">#b1b2be</color>
+    <color name="greenLogo">#61E97A</color>
+</resources>

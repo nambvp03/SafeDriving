@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/blueGrey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/currentVolumeTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingTop="30dp"
+            android:text="Volume level"
+            android:textColor="@color/mimoWhite"
+            android:textSize="25dp"
+            android:background="@color/blueGreyLight"/>
+
+        <TextView
+            android:id="@+id/currentVolume"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingTop="30dp"
+            android:text="0 amp"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"
+            android:background="@color/blueGreyLight"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/currentSpeedTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingTop="30dp"
+            android:text="Current Speed"
+            android:textColor="@color/mimoWhite"
+            android:textSize="25dp"
+            android:background="@color/blueGreyLight"/>
+
+        <TextView
+            android:id="@+id/currentSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingTop="30dp"
+            android:text="0.0 mph"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"
+            android:background="@color/blueGreyLight"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/currentAccTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingTop="30dp"
+            android:text="Accelerometer"
+            android:textColor="@color/mimoWhite"
+            android:textSize="25dp"
+            android:background="@color/blueGreyLight"/>
+
+        <TextView
+            android:id="@+id/currentAcc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:paddingTop="30dp"
+            android:text="X:0 Y:0"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"
+            android:background="@color/blueGreyLight"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="bottom">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/detect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:text="Detect Safe Driving"
+            android:textSize="20dp"
+            android:textColor="@color/mimoWhite" />
+
+    </LinearLayout>
+</LinearLayout>
